@@ -1,0 +1,47 @@
+{
+	"geode": "4.0.0-beta.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "thesillydoggo.retro_edit",
+	"name": "Retro Edit",
+	"version": "v1.0.0",
+	"developer": "TheSillyDoggo",
+	"description": "Allows you to go back to older versions of the editor",
+	"tags": [
+		"modtober24",
+		"editor"
+	],
+	"dependencies": [
+		{
+			"id": "alphalaneous.old_color_triggers",
+			"importance": "required",
+			"version": "*"
+		}
+	],
+	"settings": {
+		"version": {
+			"type": "string",
+			"name": "Version",
+			"default": "1.0",
+			"description": "The servion of the editor to be simulating",
+			"one-of": [
+				"1.0",
+				"1.1",
+				"1.2",
+				"1.3",
+				"1.4",
+				"1.5",
+				"1.6",
+				"1.7",
+				"1.8",
+				"1.9",
+				"2.0", 
+				"2.1"
+			]
+		}
+	}
+}
