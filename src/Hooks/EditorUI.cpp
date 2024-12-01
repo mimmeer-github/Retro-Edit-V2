@@ -48,9 +48,13 @@ class $modify (RetroEditorUI, EditorUI)
         int i = 0;
         for (auto tab : tabs)
         {
+            tabsMenu->addChild(tab);
+
+            if (!typeinfo_cast<CCMenuItemToggler*>(tab))
+                continue;
+
             tab->setTarget(this, menu_selector(RetroEditorUI::onChangeTab));
             tab->setTag(i);
-            tabsMenu->addChild(tab);
 
             i++;
         }
@@ -64,15 +68,15 @@ class $modify (RetroEditorUI, EditorUI)
         {
             auto objs2 = VersionUtils::getObjectsForVersion(VersionUtils::getVersionSimulating(), rows, columns, this, i);
 
-            auto editBar = EditButtonBar::create(objs2, ccp(CCDirector::get()->getWinSize().width / 2 - 5, 86), 69, false, rows, columns);
-            editBar->setZOrder(10);
-            editBar->setID("edit-bar"_spr);
-            m_fields->bars.push_back(editBar);
-
             for (auto obj : CCArrayExt<CCMenuItemSpriteExtra*>(objs2))
             {
                 objs->addObject(obj);
             }
+
+            auto editBar = EditButtonBar::create(objs2, ccp(CCDirector::get()->getWinSize().width / 2 - 5, 86), 69, false, rows, columns);
+            editBar->setZOrder(10);
+            editBar->setID("edit-bar"_spr);
+            m_fields->bars.push_back(editBar);
 
             this->addChild(editBar, 5 + i);
         }
@@ -85,7 +89,7 @@ class $modify (RetroEditorUI, EditorUI)
 
     void selectTab(int index)
     {
-        if (m_fields->tabs.size() == 0)
+        if (m_fields->tabs.size() <= 1)
             return;
 
         m_fields->selectedTab = index;
