@@ -10,7 +10,7 @@
 	"name": "Retro Edit",
 	"version": "v1.0.0",
 	"developer": "TheSillyDoggo",
-	"description": "Allows you to go back to older versions of the editor",
+	"description": "Allows you to use the object palette from older versions of the game",
 	"tags": [
 		"modtober24",
 		"editor"
@@ -38,9 +38,7 @@
 				"1.6",
 				"1.7",
 				"1.8",
-				"1.9",
-				"2.0", 
-				"2.1"
+				"1.9"
 			]
 		}
 	}

@@ -21,6 +21,8 @@ class $modify (GameObject)
 
         if (!pRet && isGameobjectCreateWithKeyFix)
         {
+            // idk vro
+
             if (key == 104)
             {
                 pRet = GameObject::createWithKey(899);
@@ -1207,7 +1209,6 @@ CCArray* VersionUtils::getObjectsForVersion(std::string version, int rows, int c
             REPEATED_INCREASED_EDITOR_BUTTON(56, 4);
         }
     }
-
 
     isGameobjectCreateWithKeyFix = false;
 
