@@ -19,7 +19,7 @@
 		{
 			"id": "alphalaneous.old_color_triggers",
 			"importance": "required",
-			"version": "*"
+			"version": ">=1.0.2"
 		}
 	],
 	"settings": {
