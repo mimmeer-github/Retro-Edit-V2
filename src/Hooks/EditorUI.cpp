@@ -22,16 +22,6 @@ class $modify (RetroEditorUI, EditorUI)
         if (!EditorUI::init(editorLayer))
             return false;
 
-        if (auto tabs = m_tabsMenu)
-        {
-            tabs->setScale(0);
-        }
-
-        for (auto tab : CCArrayExt<CCNode*>(m_createButtonBars))
-        {
-            tab->setScale(0);
-        }
-
         int rows = 6;
         int columns = 2;
 
@@ -85,6 +75,29 @@ class $modify (RetroEditorUI, EditorUI)
 
         this->addChild(tabsMenu);
         return true;
+    }
+
+    void setupCreateMenu()
+    {
+        EditorUI::setupCreateMenu();
+
+        if (auto tabs = m_tabsMenu)
+        {
+            tabs->setScale(0);
+        }
+
+        for (auto tab : CCArrayExt<CCNode*>(m_createButtonBars))
+        {
+            tab->setScale(0);
+        }
+
+        Loader::get()->queueInMainThread([this]
+        {
+            for (auto tab : CCArrayExt<CCNode*>(m_createButtonBars))
+            {
+                tab->setScale(0);
+            }
+        });
     }
 
     void selectTab(int index)
