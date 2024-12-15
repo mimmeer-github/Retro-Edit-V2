@@ -1209,6 +1209,345 @@ CCArray* VersionUtils::getObjectsForVersion(std::string version, int rows, int c
             REPEATED_INCREASED_EDITOR_BUTTON(56, 4);
         }
     }
+    else if (version == "2.0")
+    {
+        if (category == 0)
+        {
+            EDITOR_BUTTON(1);
+            EDITOR_BUTTON(83);
+            REPEATED_INCREASED_EDITOR_BUTTON(2, 4);
+            EDITOR_BUTTON(502);
+            REPEATED_INCREASED_EDITOR_BUTTON(6, 2);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(69, 7);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(76, 3);
+            REPEATED_INCREASED_EDITOR_BUTTON(80, 3);
+            REPEATED_INCREASED_EDITOR_BUTTON(90, 7);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(116, 7);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(160, 8);
+            EDITOR_BUTTON(737);
+            REPEATED_INCREASED_EDITOR_BUTTON(168, 2);
+            EDITOR_BUTTON(193);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(207, 7);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(247, 8);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(255, 7);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(263, 6);
+            
+            REPEATED_INCREASED_EDITOR_BUTTON(269, 7);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(476, 7);
+            REPEATED_INCREASED_EDITOR_BUTTON(485, 7);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(641, 8);
+            EDITOR_BUTTON(739);
+            REPEATED_INCREASED_EDITOR_BUTTON(649, 2);
+
+            EDITOR_BUTTON(658);
+            EDITOR_BUTTON(722);
+            EDITOR_BUTTON(659);
+            EDITOR_BUTTON(734);
+        }
+
+        if (category == 1)
+        {
+            EDITOR_BUTTON(40);
+            EDITOR_BUTTON(369);
+            EDITOR_BUTTON(370);
+            REPEATED_INCREASED_EDITOR_BUTTON(195, 2);
+
+            EDITOR_BUTTON(215);
+            EDITOR_BUTTON(220);
+            EDITOR_BUTTON(219);
+
+            REPEATED_INCREASED_EDITOR_BUTTON2(146, 2, 5);
+            EDITOR_BUTTON2(206, 5);
+            EDITOR_BUTTON2(204, 5);
+            REPEATED_INCREASED_EDITOR_BUTTON2(673, 2, 5);
+
+            EDITOR_BUTTON(62);
+            EDITOR_BUTTON(66);
+            EDITOR_BUTTON(65);
+            EDITOR_BUTTON(68);
+            EDITOR_BUTTON(63);
+            EDITOR_BUTTON(64);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(170, 3);
+            EDITOR_BUTTON(192);
+
+            EDITOR_BUTTON(173);
+            EDITOR_BUTTON(194);
+            REPEATED_INCREASED_EDITOR_BUTTON(174, 3);
+            EDITOR_BUTTON(197);
+
+            EDITOR_BUTTON(143);
+
+            EDITOR_BUTTON(653);
+            EDITOR_BUTTON(724);
+            EDITOR_BUTTON(654);
+            EDITOR_BUTTON(736);
+
+            EDITOR_BUTTON(657);
+            EDITOR_BUTTON(656);
+            EDITOR_BUTTON(655);
+            EDITOR_BUTTON(723);
+            EDITOR_BUTTON(735);
+        }
+
+        if (category == 2)
+        {
+            REPEATED_INCREASED_EDITOR_BUTTON(467, 9);
+            REPEATED_INCREASED_EDITOR_BUTTON(661, 6);
+        }
+
+        if (category == 3)
+        {
+            EDITOR_BUTTON(289);
+            EDITOR_BUTTON(291);
+            EDITOR_BUTTON(299);
+            EDITOR_BUTTON(301);
+            EDITOR_BUTTON(305);
+            EDITOR_BUTTON(307);
+            EDITOR_BUTTON(309);
+            EDITOR_BUTTON(311);
+            EDITOR_BUTTON(315);
+            EDITOR_BUTTON(317);
+            EDITOR_BUTTON(321);
+            REPEATED_INCREASED_EDITOR_BUTTON(323, 3);
+            EDITOR_BUTTON(358);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(294, 4);
+            REPEATED_INCREASED_EDITOR_BUTTON(326, 4);
+
+            EDITOR_BUTTON(331);
+            EDITOR_BUTTON(333);
+            EDITOR_BUTTON(337);
+            EDITOR_BUTTON(339);
+            EDITOR_BUTTON(343);
+            EDITOR_BUTTON(345);
+            EDITOR_BUTTON(349);
+            EDITOR_BUTTON(351);
+            EDITOR_BUTTON(353);
+            EDITOR_BUTTON(355);
+            REPEATED_INCREASED_EDITOR_BUTTON(483, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(492, 2);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(651, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(709, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(726, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(711, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(728, 2);
+
+            EDITOR_BUTTON(-1);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(681, 28);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(713, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(730, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(715, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(732, 2);
+        }
+
+        if (category == 4)
+        {
+            EDITOR_BUTTON(8);
+            EDITOR_BUTTON(39);
+            EDITOR_BUTTON(103);
+            EDITOR_BUTTON(392);
+            
+            REPEATED_INCREASED_EDITOR_BUTTON(216, 3);
+            EDITOR_BUTTON(458);
+
+            EDITOR_BUTTON2(144, 5);
+            EDITOR_BUTTON2(205, 5);
+            EDITOR_BUTTON2(145, 5);
+            EDITOR_BUTTON2(459, 5);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(177, 3);
+
+            EDITOR_BUTTON(191);
+            REPEATED_INCREASED_EDITOR_BUTTON(198, 2);
+
+            EDITOR_BUTTON(393);
+
+            EDITOR_BUTTON(9);
+            EDITOR_BUTTON(61);
+            REPEATED_INCREASED_EDITOR_BUTTON(243, 2);
+            EDITOR_BUTTON(135);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(363, 6);
+            REPEATED_INCREASED_EDITOR_BUTTON(446, 2);
+
+            EDITOR_BUTTON(667);
+            EDITOR_BUTTON(720);
+        }
+
+        if (category == 5)
+        {
+            REPEATED_INCREASED_EDITOR_BUTTON(506, 135);
+        }
+
+        if (category == 6)
+        {
+            EDITOR_BUTTON(35);
+            EDITOR_BUTTON(140);
+            EDITOR_BUTTON(67);
+
+            EDITOR_BUTTON(36);
+            EDITOR_BUTTON(141);
+            EDITOR_BUTTON(84);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(10, 4);
+            EDITOR_BUTTON(47);
+            EDITOR_BUTTON(111);
+
+            EDITOR_BUTTON(660);
+            REPEATED_INCREASED_EDITOR_BUTTON(45, 2);
+
+            EDITOR_BUTTON(99);
+            EDITOR_BUTTON(101);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(286, 2);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(200, 4);
+        }
+
+        if (category == 7)
+        {
+            REPEATED_INCREASED_EDITOR_BUTTON(18, 4);
+            REPEATED_INCREASED_EDITOR_BUTTON(48, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(113, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(157, 3);
+            REPEATED_INCREASED_EDITOR_BUTTON(227, 2);
+            EDITOR_BUTTON(242);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(448, 5);
+            REPEATED_INCREASED_EDITOR_BUTTON2(503, 3, 5);
+        }
+
+        if (category == 8)
+        {
+            EDITOR_BUTTON(41);
+            EDITOR_BUTTON(110);
+            REPEATED_INCREASED_EDITOR_BUTTON(106, 2);
+
+            REPEATED_INCREASED_EDITOR_BUTTON2(498, 2, 5)
+
+            REPEATED_INCREASED_EDITOR_BUTTON(129, 3);
+
+            EDITOR_BUTTON(466);
+            REPEATED_INCREASED_EDITOR_BUTTON(461, 5);
+
+            EDITOR_BUTTON(134);
+            EDITOR_BUTTON(190);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(151, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(225, 2);
+
+            REPEATED_INCREASED_EDITOR_BUTTON2(500, 2, 5);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(229, 2);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(237, 5);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(231, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(283, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(279, 2);
+            EDITOR_BUTTON(233);
+            REPEATED_INCREASED_EDITOR_BUTTON(281, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(234, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(277, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(245, 2);
+            
+            REPEATED_INCREASED_EDITOR_BUTTON(409, 5);
+            REPEATED_INCREASED_EDITOR_BUTTON(453, 5);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(668, 5);
+            EDITOR_BUTTON(738);
+
+            EDITOR_BUTTON2(719, 5);
+            EDITOR_BUTTON2(721, 5);
+        }
+
+        if (category == 9)
+        {
+            REPEATED_INCREASED_EDITOR_BUTTON(15, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(50, 5);
+            EDITOR_BUTTON(60);
+            REPEATED_INCREASED_EDITOR_BUTTON(148, 2);
+            EDITOR_BUTTON(405);
+            EDITOR_BUTTON(132);
+            EDITOR_BUTTON(460);
+            EDITOR_BUTTON(494);
+            EDITOR_BUTTON(133);
+            EDITOR_BUTTON(136);
+            EDITOR_BUTTON(150);
+            EDITOR_BUTTON(236);
+            EDITOR_BUTTON(497);
+            REPEATED_INCREASED_EDITOR_BUTTON(495, 2);
+        }
+
+        if (category == 10)
+        {
+            REPEATED_INCREASED_EDITOR_BUTTON(88, 2);
+            EDITOR_BUTTON(98);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(397, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(675, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(186, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON2(740, 3, 5);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(678, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(183, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(85, 3);
+            EDITOR_BUTTON(97);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(137, 3);
+            REPEATED_INCREASED_EDITOR_BUTTON(154, 3);
+            REPEATED_INCREASED_EDITOR_BUTTON(180, 3);
+            REPEATED_INCREASED_EDITOR_BUTTON(222, 3);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(375, 4);
+
+            REPEATED_INCREASED_EDITOR_BUTTON(394, 3);
+        }
+
+        if (category == 11)
+        {
+            REPEATED_INCREASED_EDITOR_BUTTON(29, 2);
+            REPEATED_INCREASED_EDITOR_BUTTON(104, 2);
+            EDITOR_BUTTON(744);
+            EDITOR_BUTTON(221);
+            EDITOR_BUTTON(717);
+            EDITOR_BUTTON(718);
+            EDITOR_BUTTON(743);
+
+            EDITOR_BUTTON(31);
+            EDITOR_BUTTON(33);
+            EDITOR_BUTTON(32);
+
+            EDITOR_BUTTON(22);
+            EDITOR_BUTTON(24);
+            EDITOR_BUTTON(23);
+            REPEATED_INCREASED_EDITOR_BUTTON(25, 4);
+            REPEATED_INCREASED_EDITOR_BUTTON(56, 4);
+        }
+    }
 
     isGameobjectCreateWithKeyFix = false;
 
@@ -1275,6 +1614,24 @@ std::vector<CCMenuItemToggler*> VersionUtils::getTabs(std::string version)
     TAB_SPRITE(GameObject::createWithKey(8));
 
     if (version == "1.9")
+    {
+        TAB_SPRITE(GameObject::createWithKey(506));
+    }
+
+    TAB_SPRITE(GameObject::createWithKey(36));
+    TAB_SPRITE(GameObject::createWithKey(18));
+    TAB_SPRITE(GameObject::createWithKey(41));
+    TAB_SPRITE(GameObject::createWithKey(50));
+    TAB_SPRITE(CCSprite::createWithSpriteFrameName("sawblade_02_001.png"));
+
+    spr1->setColor(ccBLACK);
+    spr2->setColor(ccBLACK);
+
+    TAB_SPRITE(CCSprite::create("alphalaneous.old_color_triggers/edit_eTintBGBtn_001.png"));
+
+    return tabs;
+}
+if (version == "2.0")
     {
         TAB_SPRITE(GameObject::createWithKey(506));
     }
